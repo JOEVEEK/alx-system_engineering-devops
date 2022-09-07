@@ -1,2 +1,2 @@
 #!/bin/bash
-ge 'N-Mn-m''A-MN-Za-Mn-z'
+perl -lne 'print if $_%2 == 1'
